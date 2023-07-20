@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+  padding: .9rem;
+    text-align: center;
+    background-color: #2e8ef4;
+    color: white;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+/* end header */
+/* main */
+main{
+    margin: 1rem;
+}
+
+section{
+   padding: 1rem;
+   margin: 1rem;
+  
+}
+
+/* ens main */
+/* fooer */
+footer{
+    text-align: center;
+    background-color: #2e8ef4;
+    color: white;
+}
+/* end footer */
