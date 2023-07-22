@@ -1,38 +1,46 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-header{
-  padding: .9rem;
+/*  */
+header {
+    padding: .9rem;
     text-align: center;
     background-color: #2e8ef4;
     color: white;
 }
 
-ul{
+ul {
     list-style: none;
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
+
 }
+
+li {
+    display: inline-flex;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
 /* end header */
 /* main */
-main{
+main {
     margin: 1rem;
 }
 
-section{
-   padding: 1rem;
-   margin: 1rem;
-  
+section {
+    padding: 1rem;
+    margin: 1rem;
+
 }
 
 /* ens main */
 /* fooer */
-footer{
+footer {
     text-align: center;
     background-color: #2e8ef4;
     color: white;
+    padding: 10px;
 }
+
 /* end footer */
